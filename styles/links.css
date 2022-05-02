@@ -1,0 +1,50 @@
+a {
+    color: #FF4E00;
+}
+
+a:link {
+    color: #FF4E00;
+}
+
+a:visited {
+    color: #FF4E00;
+}
+
+a:focus {
+    color: #FF4E00;
+}
+
+a:hover {
+    color: #FF4E00;
+}
+
+a:active {
+    color: #FF4E00;
+}
+
+/* ------------------- */
+
+
+.btn > a {
+    color: white;
+}
+
+.btn > a:link {
+    color: white;
+}
+
+.btn > a:visited {
+    color: white;
+}
+
+.btn > a:focus {
+    color: white;
+}
+
+.btn > a:hover {
+    color: white;
+}
+
+.btn > a:active {
+    color: white;
+}

@@ -1,0 +1,60 @@
+a{
+    text-decoration: none;
+
+}
+nav{
+    position: fixed;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-right: 9%;
+    padding-left: 9%;
+    font-size: 1.3em;
+    background-color: #fff7f4;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.logo{
+    font-size: 1.2em;
+    float: left;
+    background-image: linear-gradient(to left, #FF0F0D, #FF4E00, #FF9B0D);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+  /* Adicionado: */
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.menu{
+    list-style: none;
+    float: right;
+    margin-right: 30px;
+    color: white;
+}
+
+.menu > li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.menu > li:hover:not(:last-child){
+    border-bottom: 3px solid #FF4E00;
+
+}
+
+.btn{
+    border: none;
+    background-image: linear-gradient(to left, #FF0F0D, #FF4E00, #FF9B0D);
+    padding-top: 6px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+
+
+.btn:hover{
+    background-image: linear-gradient(to right, #FF0F0D, #FF4E00, #FF9B0D);  
+}

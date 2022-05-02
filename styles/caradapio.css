@@ -1,0 +1,31 @@
+#cardapio{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15), #fff7f4, white);
+    width: 100%;
+    height: 100vh;
+    padding-top: 9rem;
+    text-align: center;
+}
+.titlec{
+    font-size: 3em;
+    font-weight: 500;
+    background-color: rgba(245, 222, 179, 0);
+    background-image: linear-gradient(to left, #FF0F0D, #FF4E00, #FF9B0D);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    /* Adicionado: */
+    -webkit-text-fill-color: transparent;
+}
+
+.itens{
+    background-color: aqua;
+    margin: auto;
+    width: 90%;
+    height: 450px;
+}
+
+.item{
+    display: flex;
+    flex-direction: ;
+}

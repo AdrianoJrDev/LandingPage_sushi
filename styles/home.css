@@ -1,0 +1,92 @@
+#homep{
+    
+    padding-top: 6.1rem;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15), #fff7f4, white);
+    padding: 100px;
+    font-size: 1.5em;
+   
+}
+
+.conteudo1{
+    float: left;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+mark{
+    background-color: rgba(245, 222, 179, 0);
+    background-image: linear-gradient(to left, #FF0F0D, #FF4E00, #FF9B0D);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+  /* Adicionado: */
+    -webkit-text-fill-color: transparent;
+    font-size: 1.35em;
+}
+
+.btnh{
+    font-size: 0.8em;
+    font-weight: 600;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    width: 370px;
+    padding: 5px;
+    padding-top: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
+}
+
+.b1{
+    background-image: linear-gradient(to left, #FF0F0D, #FF4E00, #FF9B0D);
+    
+}
+
+.b2{
+    color: rgb(255, 85, 11);
+    border: 1px solid rgb(255, 85, 11);
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+
+.b1:hover{
+    transition: 1s;   
+    background-image: linear-gradient(to right, #FF0F0D, #FF4E00, #FF9B0D);
+   
+       
+}
+
+.b2:hover{
+    color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+}
+
+
+.imgh{
+    float: right;  
+    margin-right: 10%;
+    
+}
+
+.img1{
+    width: 510px;
+}
+
+@media screen and (max-width: 1800px){
+    #homep{
+        font-size: 1.2em;
+    }
+    .btnh{
+        
+        width: 200px;
+       
+    }
+
+    .img1{
+        width: 400px;
+    }
+}
